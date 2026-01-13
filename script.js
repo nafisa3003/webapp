@@ -1,3 +1,4 @@
-function sayHi() {
+function 
+test() {
     alert("JavaScript");
 }
