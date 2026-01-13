@@ -4,3 +4,8 @@ body {
     color: #111111;
     margin: 40px;
 }
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, Georgia, serif;
+    color: #c0567a; 
+}
