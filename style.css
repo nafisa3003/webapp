@@ -56,7 +56,7 @@ header, section {
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
 h1 {
@@ -85,35 +85,52 @@ p {
 
 .project {
     display: flex;
-    align-items: center;
-    padding: 24px;
-    margin-bottom: 24px;
-
+    align-items: flex-start;
+    gap: 16px;
+    padding: 18px 22px;
     background-color: #f8fafc;
-    border-radius: 16px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+    border-radius: 14px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
 }
 
-.project-content {
-    max-width: 700px;
+.project-left {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+
+    background-color: #e0e7ff;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-left img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.85;
+}
+
+.project-right {
+    flex: 1;
+}
+
+.project-right h4 {
+    margin: 0 0 4px 0;
+    font-size: 1.1rem;
+}
+
+.project-right p {
+    margin: 0 0 6px 0;
+    font-size: 0.9rem;
+    color: #374151;
 }
 
 .projects-container {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-}
-
-.project h4 {
-    margin-top: 0;
-    margin-bottom: 8px;
-    font-size: 1.2rem;
-}
-
-.project p {
-    margin-bottom: 10px;
-    font-size: 0.95rem;
-    color: #374151;
+    gap: 28px;
 }
 
 .project a {
