@@ -99,8 +99,8 @@ p {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 12px;
-    background-color: #6880b3; 
-    color: #ffffff;
+    background-color: #a3bbf0; 
+    color: #000000;
     text-decoration: none;
     border-radius: 6px;
     font-size: 14px;
@@ -118,5 +118,30 @@ p {
 }
 
 .project a:hover {
-    background-color: #05070d;
+    background-color: #395094;
+}
+
+.contact-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contact-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #111111;
+    font-weight: 500;
+}
+
+.contact-links img {
+    width: 18px;
+    height: 18px;
+}
+
+.contact-links a:hover,
+.project-link:hover {
+    text-decoration: underline;
 }
