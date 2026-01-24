@@ -84,15 +84,36 @@ p {
 }
 
 .project {
-    background-color: #ffffff;
-    border: 1px #dce1ee;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+    margin-bottom: 24px;
+
+    background-color: #f8fafc;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.project-content {
+    max-width: 700px;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .project h4 {
     margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.project p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: #374151;
 }
 
 .project a {
